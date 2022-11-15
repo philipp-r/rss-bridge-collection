@@ -57,7 +57,7 @@ class GithubReleaseBridge extends FeedExpander
 
     public function collectData()
     {
-        $this->collectExpandableDatas('https://github.com/'.urlencode($this->getInput('u')).'/'.urlencode($this->getInput('p')).'/releases.atom');
+        $this->collectExpandableDatas('https://github.com/'.urlencode($this->getInput('u')).'/'.urlencode($this->getInput('p')).'/'.$this->getInput('rt').'.atom');
 
     }
 }
