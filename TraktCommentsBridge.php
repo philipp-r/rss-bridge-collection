@@ -14,6 +14,7 @@ class TraktCommentsBridge extends BridgeAbstract
             'name' => 'username',
             'exampleValue' => 'johndoe',
             'title' => 'The profile must be public (Trakt.tv &gt; Settings &gt; uncheck Private)',
+            'required' => true,
         ],
     ] ];
 
